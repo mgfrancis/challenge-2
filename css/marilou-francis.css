@@ -24,6 +24,7 @@ p {
 .firstname {
 	font-style: italic;
 	text-decoration: underline;
+	color: lightblue;
 }
 
 img {
@@ -86,7 +87,8 @@ footer {
 
 @media only screen and (max-width: 700px) {
 
-	body, header, footer {
+	body, header, footer, img {
 		font-size: 85%;
+		display: block;
 	}
 }
